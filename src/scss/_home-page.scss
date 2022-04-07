@@ -1,12 +1,36 @@
+header {
+    position: sticky;
+}
+
+.header_logo img {
+    padding: 27px 0 19px 40px;
+}
+
 .preview {
     position: relative;
     background: url('/img/bg.png') no-repeat center  fixed;
     background-size: cover;
+    backdrop-filter: brightness(50%);
+    background-color: rgba(0, 0, 0);
 }
 
-
-
 .main_text {
-    padding-top: 182px;
+    padding-top: 180px;
+    width: 627px;
+}
+
+.btn_main {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    margin-bottom: 175px;
+    margin-top: 36px;
+    width: 162px;
+    height: 40px;
+    background: #2680EB;
+    border: none;
 }
 

@@ -1,11 +1,44 @@
+header {
+  position: sticky;
+}
+
+.header_logo img {
+  padding: 27px 0 19px 40px;
+}
+
 .preview {
   position: relative;
   background: url("/img/bg.png") no-repeat center fixed;
   background-size: cover;
+  -webkit-backdrop-filter: brightness(50%);
+          backdrop-filter: brightness(50%);
+  background-color: rgb(0, 0, 0);
 }
 
 .main_text {
-  padding-top: 182px;
+  padding-top: 180px;
+  width: 627px;
+}
+
+.btn_main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+  margin-bottom: 175px;
+  margin-top: 36px;
+  width: 162px;
+  height: 40px;
+  background: #2680EB;
+  border: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
 }
 
 .container {
@@ -13,8 +46,7 @@
 }
 
 h1 {
-  font-family: "Inter";
-  font-style: normal;
+  all: unset;
   font-weight: 900;
   font-size: 42px;
   line-height: 54px;
@@ -22,11 +54,9 @@ h1 {
 }
 
 p {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  color: #FFFFFF;
+  color: #DDDDDD;
 }
