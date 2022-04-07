@@ -43,6 +43,14 @@ h2 {
     color: #323232;
 }
 
+#center_font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -114,5 +122,11 @@ button:hover {
     
     .main_p {
         display: none;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.36px;
     }
 }
