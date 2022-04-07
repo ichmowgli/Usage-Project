@@ -9,7 +9,9 @@ header {
   padding: 27px 0 19px 40px;
 }
 
-.nature_img {
+.preview {
+  position: relative;
+  background: url("/img/bg.png") no-repeat center fixed;
   background-size: cover;
   -webkit-backdrop-filter: brightness(50%);
           backdrop-filter: brightness(50%);
@@ -34,6 +36,10 @@ header {
   height: 40px;
   background: #2680EB;
   border: none;
+}
+
+.nature_img img {
+  max-width: 100%;
 }
 
 body {
@@ -62,6 +68,12 @@ p {
   color: #FFFFFF;
 }
 
+@media (min-width: 769px) {
+  .hide_small {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .header_logo img {
     padding: 25px 0 19px 40px;
@@ -78,7 +90,24 @@ p {
     margin-bottom: 60px;
   }
 
+  .preview {
+    background: unset;
+    background-color: #fff;
+  }
+
+  .preview .main_p {
+    color: #000;
+  }
+
   .container {
     padding: 61px 40px 0;
+  }
+
+  h1 {
+    color: #000000;
+  }
+
+  p {
+    color: #000000;
   }
 }

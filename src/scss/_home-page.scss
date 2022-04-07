@@ -9,7 +9,9 @@ header {
     padding: 27px 0 19px 40px;
 }
 
-.nature_img {
+.preview {
+    position: relative;
+    background: url('/img/bg.png') no-repeat center fixed;
     background-size: cover;
     backdrop-filter: brightness(50%);
     background-color: rgba(0, 0, 0);
@@ -35,10 +37,21 @@ header {
     border: none;
 }
 
+.nature_img {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .hide_small {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .header_logo img {
-        padding: 25px 0 19px 40px;
-        
+        padding: 25px 0 19px 40px;     
     }
 
     .main_text {
@@ -52,5 +65,13 @@ header {
         margin-bottom: 60px;
     }
 
+    .preview {
+        background: unset;
+        background-color: #fff;
+        .main_p {
+            color: #000;
+        }
+    }
 
+    
 }
