@@ -8,3 +8,16 @@
     padding-bottom: 49px;
     padding-right: 30px;
 }
+
+@media (max-width: 850px) {
+    .text {
+        margin-bottom: 54px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ph_secondary {
+        max-width: 337px;
+        max-height: 224px;
+    }
+}

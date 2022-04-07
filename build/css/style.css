@@ -124,7 +124,24 @@ button:hover {
   }
 }
 
+@media (max-width: 1000px) {
+  .container {
+    padding: 80px 40px 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .text {
+    margin-bottom: 54px;
+  }
+}
+
 @media (max-width: 768px) {
+  .ph_secondary {
+    max-width: 337px;
+    max-height: 224px;
+  }
+
   .header_logo img {
     padding: 25px 0 19px 40px;
   }

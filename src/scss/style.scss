@@ -64,6 +64,11 @@ button:hover {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
+@media (max-width: 1000px) {
+    .container {
+        padding: 80px 40px 0;
+    } 
+}
 
 @media (max-width: 768px) {
     .container {
