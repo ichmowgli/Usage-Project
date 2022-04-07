@@ -194,7 +194,40 @@ button:hover {
   }
 }
 
+@media (max-width: 630px) {
+  .ph_secondary {
+    max-width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+  }
+}
+
 @media (max-width: 375px) {
+  .ph_secondary {
+    max-width: 335px;
+    max-height: 217px;
+    max-width: 100%;
+  }
+
   .container {
     padding: 41px 20px 0;
   }
