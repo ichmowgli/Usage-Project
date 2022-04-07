@@ -1,14 +1,15 @@
 header {
     position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
 }
 
 .header_logo img {
     padding: 27px 0 19px 40px;
 }
 
-.preview {
-    position: relative;
-    background: url('/img/bg.png') no-repeat center  fixed;
+.nature_img {
     background-size: cover;
     backdrop-filter: brightness(50%);
     background-color: rgba(0, 0, 0);
@@ -16,7 +17,7 @@ header {
 
 .main_text {
     padding-top: 180px;
-    width: 627px;
+    max-width: 627px;
 }
 
 .btn_main {
@@ -34,3 +35,22 @@ header {
     border: none;
 }
 
+@media (max-width: 768px) {
+    .header_logo img {
+        padding: 25px 0 19px 40px;
+        
+    }
+
+    .main_text {
+        padding-top: 0;
+        max-width: 608px;
+    }
+
+    .btn_main {
+        width: 130px;
+        height: 40px;
+        margin-bottom: 60px;
+    }
+
+
+}
