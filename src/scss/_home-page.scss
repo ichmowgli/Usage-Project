@@ -43,6 +43,10 @@ header {
     }
 }
 
+.main_p {
+    padding-top: 20px;
+}
+
 @media (min-width: 769px) {
     .hide_small {
         display: none;
@@ -62,6 +66,7 @@ header {
     .btn_main {
         width: 130px;
         height: 40px;
+        margin-top: 36px;
         margin-bottom: 60px;
     }
 
@@ -73,5 +78,17 @@ header {
         }
     }
 
-    
+    @media (max-width: 375px) {
+        .header_logo img {
+            max-width: 120px;
+            padding: 29px 0 19px 20px;
+        }
+
+        .btn_main {
+            width: 130px;
+            height: 40px;
+            margin-top: 20px;
+            margin-bottom: 38px;
+        }
+    }
 }

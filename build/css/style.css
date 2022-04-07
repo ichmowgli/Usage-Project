@@ -42,6 +42,10 @@ header {
   max-width: 100%;
 }
 
+.main_p {
+  padding-top: 20px;
+}
+
 body {
   margin: 0;
   font-family: "Inter";
@@ -61,6 +65,7 @@ h1 {
 }
 
 p {
+  all: unset;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -87,6 +92,7 @@ p {
   .btn_main {
     width: 130px;
     height: 40px;
+    margin-top: 36px;
     margin-bottom: 60px;
   }
 
@@ -104,10 +110,40 @@ p {
   }
 
   h1 {
-    color: #000000;
+    color: #323232;
   }
 
   p {
-    color: #000000;
+    color: #323232;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 375px) {
+  .header_logo img {
+    max-width: 120px;
+    padding: 29px 0 19px 20px;
+  }
+
+  .btn_main {
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 41px 20px 0;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+    line-height: 38px;
+  }
+
+  .main_p {
+    display: none;
   }
 }

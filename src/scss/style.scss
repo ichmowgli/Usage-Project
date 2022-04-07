@@ -22,6 +22,7 @@ h1 {
 }
 
 p {
+    all: unset;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -35,10 +36,28 @@ p {
     }
 
     h1 {
-        color: #000000;
+        color: #323232;
+;
     }
     
     p {
-        color: #000000;
+        color: #323232;
+;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding: 41px 20px 0;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+        line-height: 38px;
+    }
+    
+    .main_p {
+        display: none;
     }
 }
