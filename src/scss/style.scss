@@ -1,4 +1,4 @@
-@import './blocks';
+@import './cards';
 @import './home-page';
 @import './kitty';
 @import './services';
@@ -21,6 +21,23 @@ h1 {
     color: #FFFFFF;
 }
 
+.secondary_p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #323232;
+}
+
+h2 {
+    all: unset;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.64px;
+    color: #323232;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -28,6 +45,25 @@ p {
     letter-spacing: 0.32px;
     color: #FFFFFF;
 }
+
+button {
+    width: 162px;
+    height: 40px;
+    left: 703px;
+    top: 1047px;
+    background: #2680EB;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+}
+button:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
 
 @media (max-width: 768px) {
     .container {
