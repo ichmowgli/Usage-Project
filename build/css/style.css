@@ -83,14 +83,75 @@ header {
   margin-top: -40px;
 }
 
+.service {
+  background: #FFFFFF;
+  margin-bottom: 40px;
+  max-width: 460px;
+}
+
+.read_more {
+  background: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #2680EB;
+  text-align: start;
+  max-width: 120px;
+}
+
+.service_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 30px 30px 20px;
+}
+
+.arrow {
+  -webkit-transform: translateX(-250%);
+      -ms-transform: translateX(-250%);
+          transform: translateX(-250%);
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 body {
   margin: 0;
   font-family: "Inter";
   font-style: normal;
 }
 
-.container {
+.container,
+.container__third {
   padding: 62px 203px 0;
+}
+
+.container__third {
+  background-color: #F5F5F5;
 }
 
 h1 {

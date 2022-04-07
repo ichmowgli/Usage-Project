@@ -9,8 +9,13 @@ body {
     font-style: normal;
 }
 
-.container {
+.container, .container__third {
     padding: 62px 203px 0;
+}
+
+.container__third {
+    background-color: #F5F5F5;
+
 }
 
 h1 {

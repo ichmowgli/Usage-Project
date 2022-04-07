@@ -1,0 +1,40 @@
+.service {
+    background: #FFFFFF;
+
+    margin-bottom: 40px;
+
+    max-width: 460px;
+}
+
+.read_more {
+    background: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #2680EB;
+    text-align: start;
+    max-width: 120px;
+
+}
+
+.service_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+
+    padding: 30px 30px 20px;
+}
+
+.arrow {
+    transform: translateX(-250%);
+}
+
+.wrapper {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
